@@ -1,56 +1,141 @@
 <!DOCTYPE html>
-<meta http-equiv="content-type" content="text/html” charset=”utf-8">
-<meta name=viewport content="width=device-width, initial-scale=1">
-<meta name="description" content="ReadChapter">
-<title> Wizard of Oz E-Book</title>
-<link
-    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Yesteryear&display=swap"
-    rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<html lang="en">
 
-</head>
+    <head>
+        <meta http-equiv="content-type" content="text/html” charset=”utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <meta name="description" content="ReadChapter">
 
-<body>
-    <header>
-        <h1><a href="index.html">The Wonderful Wizard of Oz</a></h1>
-    </header>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Yesteryear&display=swap"
+            rel="stylesheet">
 
-    <main>
-        <div>
-            <div class=”col1”>
-                <h3><a href="chapter1.html">The Cyclone; Chapter 1</a></h3>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Engagement&family=Jacques+Francois+Shadow&family=Love+Light&display=swap"
+            rel="stylesheet">
+        <title> Wizard of Oz E-Book</title>
 
+        <style>
+            h2 {
+                font-family: "Yesteryear";
+                font-size: 3em;
+
+                border-top-left-radius: 25%;
+                border-radius: 10%;
+
+            }
+
+            h1 {
+
+                font-family: "Jacques Francois Shadow", serif;
+                font-size: 4em;
+                text-align: center;
+
+
+
+            }
+
+            body {
+                background-image: url('yellow-road.png');
+                background-size: cover;
+                background-position: 20;
+                background-attachment: fixed;
+                display: flex;
+                flex-direction: column;
+
+
+
+
+            }
+
+            .card-container {
+                display: flex;
+                justify-content: center;
+                width: auto;
+                flex-wrap: wrap;
+
+                .card img {
+                    margin: 5%;
+                    padding: 10%;
+                    gap: initial;
+                    opacity: 85%;
+                    border-radius: 6em;
+                    box-shadow: 18px 8px 18px;
+
+                    justify-content: center;
+
+                }
+
+
+                .image-container img {
+                    width: auto;
+                    border: 4px;
+                    border-style: groove;
+
+                }
+
+                html {
+                    max-width: 1278px;
+                    min-width: 730px;
+                    display: flex;
+                    float: right;
+
+                }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">The Wonderful Wizard of Oz</a></h1>
+
+
+        </header>
+        <main>
+            <div class="content">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="image-container">
+
+                            <a href="chapter1.html">
+
+                                <img src="Ch1.jpeg" alt="Chapter Image" style="width:400px;">
+
+
+
+
+
+                        </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <a href="chapter2.html">
+
+                                <img src="ch2.jpeg" alt="Chapter Image" style="width:400px;">
+
+
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-container">
+                            <a href="chapter3.html">
+
+                                <img src="ch3.jpeg" alt="Chapter Image" style="width:400px;">
+                        </div>
+
+
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class=”col2”>
-                <h3><a href="chapter2.html">The Munchkins; Chapter 2</a></h3>
-            </div>
-
-
-
-            <div class=”col3”>
-                <h3><a href="chapter3.html"> The Scarecrow; Chapter 3</a></h3>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <nav>
-            <ul>
-
-                <li> <a href=" chapter1.html"> Chapter 1</a></li>
-                <li><a href="chapter2.html">Chapter 2</a></li>
-                <li><a href="chapter3.html">Chapter 3</a></li>
-            </ul>
-        </nav>
-        <div clas="sources">
-            <small>
-                <p>Text from <cite><a href=" https://www.loc.gov/item/03032405/" target="_blank">Library
-                            of Congress</a> Public Domain.
-
-                        <br> Image by Jessica Saugen, Title:The Oz Journey.</cite></p>
-            </small>
-        </div>
-        <p>&copy; All Rights Reserved. Jessica Saugen 2024.</p>
-    </footer>
-</body>
+        </main>
+        <footer>
+            <cite>Text from<a href=”http://hdl.loc.gov/loc.rbc/gen.32405”> Library of Congress,</a>Public Domain</cite>
+            <cite>Photos by Jessica Saugen, Wizard of Oz Experience 2024</cite>
+            &copy; All Rights Reserved. Jessica Saugen 2024.
+        </footer>
+    </body>
 
 </html>
